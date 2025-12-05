@@ -5,6 +5,9 @@ Gaining efficiency with DOPE'.
 [arXiv:2402.12980](https://arxiv.org/abs/2402.12980)
 
 ## Setup
+Create a virtual environment
+> python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+
 To run the simulation study on synthetic data:
 > python experiments/simulation_study/run_estimators.py
 
